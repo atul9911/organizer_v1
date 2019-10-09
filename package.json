@@ -1,0 +1,30 @@
+{
+  "name": "organizer",
+  "version": "0.1.0",
+  "description": "TodoApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "SET NODE_ENV=test && jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "bcrypt": "2.0.1",
+    "body-parser": "1.18.2",
+    "dotenv": "^8.1.0",
+    "express": "4.16.3",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "8.2.1",
+    "moment": "^2.19.3",
+    "mongoose": "5.0.13",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.4.1"
+  }
+}
